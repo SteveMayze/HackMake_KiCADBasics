@@ -16,7 +16,7 @@ then formally creating the layout again with the support of the software.
 ## The Repository
 This repository will contain the files developed to support the presentation. There are two models. One for 
 the first part of the presentation. This is a reference model as it is envisaged to create this model from scratch
-durint the presentation. The second model is distributed over several directories. Each representing specific 
+during the presentation. The second model is distributed over several directories. Each representing specific 
 steps. The idea here is as follows
 
 1. Provides neat falback points
