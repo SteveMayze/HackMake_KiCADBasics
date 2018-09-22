@@ -24,3 +24,7 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
