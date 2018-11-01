@@ -74,7 +74,7 @@ F 3 "~" H 3750 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L blinky:NE555 U?
+L Blinky-rescue:NE555-blinky U?
 U 1 1 5B73381F
 P 4750 3300
 F 0 "U?" H 5000 2950 50  0000 L CNN
@@ -195,5 +195,4 @@ Wire Wire Line
 	5400 2800 5400 2850
 Wire Wire Line
 	4100 2350 4750 2350
-NoConn ~ 4550 2850
 $EndSCHEMATC
