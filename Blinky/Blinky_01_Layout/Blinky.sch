@@ -162,8 +162,6 @@ Wire Wire Line
 	2550 2400 2850 2400
 Text Label 2850 2400 2    50   ~ 0
 Vcc
-Text Label 3750 2350 0    50   ~ 0
-Vcc
 $Comp
 L Device:C C?
 U 1 1 5B7420E7
