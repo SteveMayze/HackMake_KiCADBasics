@@ -260,8 +260,6 @@ Wire Wire Line
 	6300 2350 6300 2200
 Wire Wire Line
 	6300 1900 5900 1900
-Text Label 5900 1900 0    50   ~ 0
-Vcc
 Wire Wire Line
 	5250 3100 6300 3100
 Connection ~ 6300 3100
