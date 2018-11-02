@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Blinky-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -71,17 +70,6 @@ F 1 "1M" H 3820 3405 50  0000 L CNN
 F 2 "" V 3680 3450 50  0001 C CNN
 F 3 "~" H 3750 3450 50  0001 C CNN
 	1    3750 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Blinky-rescue:NE555-blinky U?
-U 1 1 5B73381F
-P 4750 3300
-F 0 "U?" H 5000 2950 50  0000 L CNN
-F 1 "NE555" H 4650 3300 50  0000 L CNN
-F 2 "" H 4750 3300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" H 4750 3300 50  0001 C CNN
-	1    4750 3300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -193,4 +181,15 @@ Wire Wire Line
 	5400 2800 5400 2850
 Wire Wire Line
 	4100 2350 4750 2350
+$Comp
+L blinky:LM555 U?
+U 1 1 5BDCE4C5
+P 4750 3300
+F 0 "U?" H 5291 3371 50  0000 L CNN
+F 1 "LM555" H 5291 3280 50  0000 L CNN
+F 2 "" H 4750 3300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm555.pdf" H 4750 3300 50  0001 C CNN
+	1    4750 3300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
