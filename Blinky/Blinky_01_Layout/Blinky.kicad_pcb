@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 8)
+    (drawings 0)
     (tracks 0)
     (zones 0)
     (modules 0)
@@ -103,14 +103,5 @@
     (uvia_dia 0.3)
     (uvia_drill 0.1)
   )
-
-  (gr_line (start 122 65) (end 134 65) (layer Edge.Cuts) (width 0.15) (tstamp 5BDB126A))
-  (gr_line (start 134 65) (end 142.5 73.5) (layer Edge.Cuts) (width 0.15) (tstamp 5BDB1269))
-  (gr_line (start 142.5 73.5) (end 142.5 85.5) (layer Edge.Cuts) (width 0.15) (tstamp 5BDB1268))
-  (gr_line (start 142.5 85.5) (end 134 94) (layer Edge.Cuts) (width 0.15) (tstamp 5BDB1267))
-  (gr_line (start 134 94) (end 122 94) (layer Edge.Cuts) (width 0.15) (tstamp 5BDB1266))
-  (gr_line (start 122 94) (end 113.5 85.5) (layer Edge.Cuts) (width 0.15) (tstamp 5BDB1265))
-  (gr_line (start 113.5 85.5) (end 113.5 73.5) (layer Edge.Cuts) (width 0.15) (tstamp 5BDB1264))
-  (gr_line (start 113.5 73.5) (end 122 65) (layer Edge.Cuts) (width 0.15) (tstamp 5BDB1263))
 
 )
