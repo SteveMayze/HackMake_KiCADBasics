@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Blinky-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -216,7 +215,7 @@ U 1 1 5B73FBA5
 P 2350 2300
 F 0 "SW1" H 2350 2585 50  0000 C CNN
 F 1 "SW_SPDT" H 2350 2494 50  0000 C CNN
-F 2 "Blinky:Micro_Schiebeschalter" H 2350 2300 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPDT_PCM12" H 2350 2300 50  0001 C CNN
 F 3 "" H 2350 2300 50  0001 C CNN
 	1    2350 2300
 	1    0    0    -1  

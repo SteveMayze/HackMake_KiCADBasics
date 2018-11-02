@@ -73,17 +73,6 @@ F 3 "~" H 3750 3450 50  0001 C CNN
 	1    3750 3450
 	1    0    0    -1  
 $EndComp
-$Comp
-L Blinky-rescue:NE555-blinky U?
-U 1 1 5B73381F
-P 4750 3300
-F 0 "U?" H 5000 2950 50  0000 L CNN
-F 1 "NE555" H 4650 3300 50  0000 L CNN
-F 2 "" H 4750 3300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" H 4750 3300 50  0001 C CNN
-	1    4750 3300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4750 2350 4750 2900
 Wire Wire Line
@@ -162,8 +151,6 @@ Wire Wire Line
 	2550 2400 2850 2400
 Text Label 2850 2400 2    50   ~ 0
 Vcc
-Text Label 3750 2350 0    50   ~ 0
-Vcc
 $Comp
 L Device:C C?
 U 1 1 5B7420E7
@@ -196,73 +183,14 @@ Wire Wire Line
 Wire Wire Line
 	4100 2350 4750 2350
 $Comp
-L Device:LED D?
-U 1 1 5BDAF924
-P 6300 2050
-F 0 "D?" V 6338 1933 50  0000 R CNN
-F 1 "LED" V 6247 1933 50  0000 R CNN
-F 2 "" H 6300 2050 50  0001 C CNN
-F 3 "~" H 6300 2050 50  0001 C CNN
-	1    6300 2050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 5BDAF990
-P 6300 3450
-F 0 "D?" V 6338 3333 50  0000 R CNN
-F 1 "LED" V 6247 3333 50  0000 R CNN
-F 2 "" H 6300 3450 50  0001 C CNN
-F 3 "~" H 6300 3450 50  0001 C CNN
-	1    6300 3450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5BDAF9E5
-P 6300 2500
-F 0 "R?" H 6370 2546 50  0000 L CNN
-F 1 "200" H 6370 2455 50  0000 L CNN
-F 2 "" V 6230 2500 50  0001 C CNN
-F 3 "~" H 6300 2500 50  0001 C CNN
-	1    6300 2500
+L blinky:LM555 U?
+U 1 1 5BDCC739
+P 4750 3300
+F 0 "U?" H 5000 2950 50  0000 L CNN
+F 1 "LM555" H 4650 3300 50  0000 L CNN
+F 2 "" H 4750 3300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm555.pdf" H 4750 3300 50  0001 C CNN
+	1    4750 3300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 5BDAFA5E
-P 6300 3950
-F 0 "R?" H 6370 3996 50  0000 L CNN
-F 1 "200" H 6370 3905 50  0000 L CNN
-F 2 "" V 6230 3950 50  0001 C CNN
-F 3 "~" H 6300 3950 50  0001 C CNN
-	1    6300 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5BDAFAAA
-P 6300 4350
-F 0 "#PWR?" H 6300 4100 50  0001 C CNN
-F 1 "GND" H 6305 4177 50  0000 C CNN
-F 2 "" H 6300 4350 50  0001 C CNN
-F 3 "" H 6300 4350 50  0001 C CNN
-	1    6300 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6300 4350 6300 4100
-Wire Wire Line
-	6300 3800 6300 3600
-Wire Wire Line
-	6300 3300 6300 3100
-Wire Wire Line
-	6300 2350 6300 2200
-Wire Wire Line
-	6300 1900 5900 1900
-Wire Wire Line
-	5250 3100 6300 3100
-Connection ~ 6300 3100
-Wire Wire Line
-	6300 3100 6300 2650
 $EndSCHEMATC
